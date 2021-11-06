@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fun-keyboard/static/css/main.9834686a.chunk.css",
+    "main.js": "/fun-keyboard/static/js/main.f7a240ef.chunk.js",
+    "main.js.map": "/fun-keyboard/static/js/main.f7a240ef.chunk.js.map",
+    "runtime-main.js": "/fun-keyboard/static/js/runtime-main.9ca21178.js",
+    "runtime-main.js.map": "/fun-keyboard/static/js/runtime-main.9ca21178.js.map",
+    "static/js/2.f7ab157c.chunk.js": "/fun-keyboard/static/js/2.f7ab157c.chunk.js",
+    "static/js/2.f7ab157c.chunk.js.map": "/fun-keyboard/static/js/2.f7ab157c.chunk.js.map",
+    "index.html": "/fun-keyboard/index.html",
+    "static/css/main.9834686a.chunk.css.map": "/fun-keyboard/static/css/main.9834686a.chunk.css.map",
+    "static/js/2.f7ab157c.chunk.js.LICENSE.txt": "/fun-keyboard/static/js/2.f7ab157c.chunk.js.LICENSE.txt",
+    "static/media/select.scss": "/fun-keyboard/static/media/down-arrow.07bb1e1f.svg",
+    "static/media/light_on.ea2ec3e8.svg": "/fun-keyboard/static/media/light_on.ea2ec3e8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ca21178.js",
+    "static/js/2.f7ab157c.chunk.js",
+    "static/css/main.9834686a.chunk.css",
+    "static/js/main.f7a240ef.chunk.js"
+  ]
+}
