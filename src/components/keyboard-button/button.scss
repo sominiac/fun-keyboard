@@ -1,0 +1,114 @@
+.button {
+    min-width: 64px;
+    min-height: 64px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+        font-size: 16px !important;
+    }
+
+    &_color {
+        &_firstColor {
+            background-color: #03045e;
+            border-color: #03045e;
+            color: #fff;
+
+            &_active {
+                background-color: transparent;
+                color: #03045e;
+                animation: vibrate 0.3s ease infinite;
+            }
+        }
+
+        &_secondColor {
+            background-color: #023e8a;
+            border-color: #023e8a;
+            color: #fff;
+
+            &_active {
+                background-color: transparent;
+                color: #023e8a;
+                animation: vibrate 0.3s ease infinite;
+            }
+        }
+
+        &_thirdColor {
+            background-color: #0077b6;
+            border-color: #0077b6;
+            color: #fff;
+
+            &_active {
+                background-color: transparent;
+                color: #0077b6;
+                animation: vibrate 0.3s ease infinite;
+            }
+        }
+
+        &_fourthColor {
+            background-color: #0096c7;
+            border-color: #0096c7;
+            color: #fff;
+
+            &_active {
+                background-color: transparent;
+                color: #0096c7;
+                animation: vibrate 0.3s ease infinite;
+            }
+        }
+
+        &_fifthColor {
+            background-color: #48cae4;
+            border-color: #48cae4;
+            color: #fff;
+
+            &_active {
+                background-color: transparent;
+                color: #48cae4;
+                animation: vibrate 0.3s ease infinite;
+            }
+        }
+    }
+
+    &_width {
+        &_64 {
+            width: 64px;
+        }
+
+        &_96 {
+            width: 96px;
+        }
+
+        &_117 {
+            width: 117px;
+        }
+
+        &_154 {
+            width: 154px;
+        }
+    }
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-1px, 1px);
+    }
+    40% {
+        transform: translate(-1px, -1px);
+    }
+    60% {
+        transform: translate(1px, 1px);
+    }
+    80% {
+        transform: translate(1px, -1px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}

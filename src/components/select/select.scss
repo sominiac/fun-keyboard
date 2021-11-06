@@ -1,0 +1,20 @@
+.language__select {
+    width: 180px;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-weight: 300;
+    padding-right: 40px;
+    background-color: transparent;
+    background-image: url(../../assets/images/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 140px 8px;
+    background-size: 20px;
+    cursor: pointer;
+}
+
+.select__option {
+    font-weight: 300;
+}
